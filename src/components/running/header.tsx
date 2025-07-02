@@ -20,14 +20,14 @@ export default function Header() {
         className={`transition-all duration-300 ${
           scrolled
             ? "top-4 left-6 w-24 h-10 absolute"
-            : "mt-20 w-60 h-24 mx-auto relative"
+            : " w-324 h-81 mx-auto relative"
         }`}
       >
         <Image
           src="/logos/70e-Logo-H.png"
-          alt="Logo"
-          width={240} // native dimensions (used internally)
-          height={96}
+          alt="Logo horizontal du 70e anniversaire de la Ville de Schefferville"
+          width={6481}
+          height={1988}
           className="object-contain w-full h-full"
           priority
         />
