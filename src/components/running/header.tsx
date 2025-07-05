@@ -19,8 +19,8 @@ export default function Header() {
       <div
         className={`transition-all duration-300 ${
           scrolled
-            ? "top-4 left-6 w-24 h-10 absolute"
-            : " w-324 h-81 mx-auto relative"
+            ? "top-3 left-1/5 w-1/5 h-fit absolute"
+            : "w-1/2 h-fit mx-auto relative"
         }`}
       >
         <Image

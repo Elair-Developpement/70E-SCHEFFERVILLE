@@ -5,6 +5,8 @@ import type { Metadata } from "next";
 import { Poppins, DM_Sans } from "next/font/google";
 import "./globals.css";
 
+import Header from "@/components/running/header";
+
 const poppins = Poppins({
   subsets: ["latin"],
   variable: "--font-poppins",

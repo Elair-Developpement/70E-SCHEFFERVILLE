@@ -3,7 +3,7 @@ import HomeCarousel from "./(components)/homeCarousel";
 
 export default function Home() {
   return (
-    <main className="container mx-auto pt-80">
+    <main className="container mx-auto pt-70">
       <Header />
       <HomeCarousel />
       <p>Hello World !</p>

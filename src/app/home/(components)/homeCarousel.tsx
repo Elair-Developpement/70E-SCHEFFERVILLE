@@ -18,7 +18,7 @@ export default function HomeCarousel() {
       <CarouselContent>
         {["aurore", "aurore2", "barrage"].map((img, i) => (
           <CarouselItem key={i} className="flex items-center justify-center">
-            <div className="relative w-300 h-200 overflow-hidden rounded-lg">
+            <div className="relative w-screen h-screen overflow-hidden rounded-lg">
               <Image
                 src={`/images/carousel/${img}.jpg`}
                 alt={img}
