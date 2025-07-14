@@ -21,6 +21,12 @@ export default function Home() {
         height={3745}
         className="object-contain w-4/5 md:max-w-1/2 h-auto mx-auto"
       />
+      {/* Slogan 3 langues */}
+      <div className="text-left text-blue-1 font-bold mt-3 mb-4">
+        <h1>{"«70 ans ensemble et tourné vers l’avenir»"}</h1>
+        <h1>{"«70 ᑕᑐᔪᐛᐳᓇ ᒪᒧᐤ ᐊᑕᔭᒄ ᑭᔭ ᓂᑲᓐ ᐊᓯᔅᑐᔭᒄ»"}</h1>
+        <h1>{"«70 tetepun mamu etaiak Kie Nikan eshe shtetaiak»"}</h1>
+      </div>
       {/* Section pour texte d'introduction */}
       <div className="bg-teal-1 p-3 rounded-lg">
         <h1 className="text-center text-l font-bold text-white pb-2">
@@ -80,21 +86,21 @@ export default function Home() {
       <div className="flex flex-col py-2">
         <h1 className="text-xl text-blue-1 font-bold">{t("partners")}</h1>
         <div className="flex">
-          <Link href="https://www.quebec.ca" target="_blank">
-            <Image
-              src="/images/partners/Gouv_Quebec_logo.png"
-              alt="Logo du Gouvernement du Québec"
-              width={1200}
-              height={675}
-              className="object-contain w-full"
-            />
-          </Link>
           <Link href="https://www.caniapiscau.ca" target="_blank">
             <Image
               src="/images/partners/Logo_MRC_de_Caniapiscau.png"
               alt="Logo de la MRC de Caniapiscau"
               width={860}
               height={612}
+              className="object-contain w-full"
+            />
+          </Link>
+          <Link href="https://www.quebec.ca" target="_blank">
+            <Image
+              src="/images/partners/Gouv_Quebec_logo.png"
+              alt="Logo du Gouvernement du Québec"
+              width={1200}
+              height={675}
               className="object-contain w-full"
             />
           </Link>
