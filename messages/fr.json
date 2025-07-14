@@ -1,5 +1,18 @@
 {
-  "common": {
-    "contact-us": "Nous joindre"
+  "running": {
+    "home": "Accueil",
+    "press": "Communiqués",
+    "events": "Programmation",
+    "v-museum": "Musée virtuel",
+    "contact-us": "Nous joindre",
+    "locale-switcher-code": "en",
+    "locale-switcher": "English"
+  },
+  "home": {
+    "intro-title": "Bienvenue sur le site du 70e anniversaire de la Ville de Schefferville",
+    "intro-text": "TEXTE DINTRODUCTION Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ligula diam, viverra quis varius non, pharetra et diam. Praesent ut est elit. Nulla fringilla semper tincidunt. Duis accumsan interdum placerat. Vestibulum facilisis vel tellus at pulvinar. Donec vel eros sed lacus dignissim feugiat. Pellentesque elit lectus, porta eu placerat ut, ultricies consequat tortor. In sed metus est. Nunc et tellus sapien. Praesent diam metus, scelerisque et eleifend sed, lobortis at ex. Integer ut rhoncus nisl. Nulla facilisi. Sed dictum diam a ipsum semper, id porta risus auctor. Vivamus ultricies orci sit amet diam malesuada, eu dapibus mauris tristique. Quisque porta rhoncus dictum. Praesent elementum velit a pulvinar iaculis.",
+    "press-title": "Manchettes",
+    "press-latest": "Derniers communiqués",
+    "press-more": "Voir tous les communiqués"
   }
 }

@@ -2,10 +2,16 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { Menu, X } from "lucide-react";
+
+import { useTranslations } from "next-intl";
 import { useState } from "react";
+import { Menu, X } from "lucide-react";
+
+import LocaleSwitcher from "./localeSwitcher";
 
 export default function Header() {
+  const t = useTranslations("running");
+
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
@@ -52,22 +58,27 @@ export default function Header() {
         {/* Navigation Items */}
         <nav className="flex flex-col items-center justify-center h-full gap-8 pb-[5rem] text-3xl font-bold text-blue-1">
           <Link href="/home" onClick={() => setIsMenuOpen(false)}>
-            Accueil
+            {t("home")}
           </Link>
           <Link href="/press" onClick={() => setIsMenuOpen(false)}>
-            Communiqués
+            {t("press")}
+          </Link>
+          <Link href="/events" onClick={() => setIsMenuOpen(false)}>
+            {t("events")}
           </Link>
           <Link
             href="https://museevirtuel.schefferville.ca/"
             target="_blank"
             onClick={() => setIsMenuOpen(false)}
           >
-            Musée virtuel
+            {t("v-museum")}
           </Link>
           <Link href="/contact" onClick={() => setIsMenuOpen(false)}>
-            Nous joindre
+            {t("contact-us")}
           </Link>
-          <p className="text-lg">English</p>
+          <div className="text-lg">
+            <LocaleSwitcher />
+          </div>
         </nav>
       </div>
     </>
