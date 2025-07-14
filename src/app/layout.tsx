@@ -34,7 +34,10 @@ export default async function RootLayout({
   return (
     <html lang={locale}>
       <body className={`${poppins.variable} ${dmSans.variable} antialiased`}>
-        <NextIntlClientProvider>{children}</NextIntlClientProvider>
+        <NextIntlClientProvider>
+          <Header />
+          {children}
+        </NextIntlClientProvider>
       </body>
     </html>
   );
