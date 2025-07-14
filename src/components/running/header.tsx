@@ -37,7 +37,7 @@ export default function Header() {
 
       {/* Mobile Menu */}
       <div
-        className={`fixed top-0 right-0 h-screen w-full bg-white z-50 transition-transform duration-300 ease-in-out ${
+        className={`fixed top-0 right-0 shadow-2xl h-screen w-full md:w-1/3 bg-white z-50 transition-transform duration-300 ease-in-out ${
           isMenuOpen ? "translate-x-0" : "translate-x-full"
         }`}
       >
