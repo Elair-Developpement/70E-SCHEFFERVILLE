@@ -15,10 +15,25 @@ export default function Home() {
         height={3745}
         className="object-contain w-4/5 h-auto mx-auto"
       />
-      <h1 className="text-center">Hello World !</h1>
-      <p className="text-justify">
-        Bienvenue sur le site de la 70e Schefferville
-      </p>
+      <div className="bg-teal-1 p-3 rounded-lg">
+        <h1 className="text-center text-l font-bold text-white pb-2">
+          Bienvenue sur le site du 70e anniversaire de la Ville de Schefferville
+        </h1>
+        <p className="text-justify text-white">
+          TEXTE D'INTRODUCTION Lorem ipsum dolor sit amet, consectetur
+          adipiscing elit. Ut ligula diam, viverra quis varius non, pharetra et
+          diam. Praesent ut est elit. Nulla fringilla semper tincidunt. Duis
+          accumsan interdum placerat. Vestibulum facilisis vel tellus at
+          pulvinar. Donec vel eros sed lacus dignissim feugiat. Pellentesque
+          elit lectus, porta eu placerat ut, ultricies consequat tortor. In sed
+          metus est. Nunc et tellus sapien. Praesent diam metus, scelerisque et
+          eleifend sed, lobortis at ex. Integer ut rhoncus nisl. Nulla facilisi.
+          Sed dictum diam a ipsum semper, id porta risus auctor. Vivamus
+          ultricies orci sit amet diam malesuada, eu dapibus mauris tristique.
+          Quisque porta rhoncus dictum. Praesent elementum velit a pulvinar
+          iaculis.{" "}
+        </p>
+      </div>
     </main>
   );
 }
