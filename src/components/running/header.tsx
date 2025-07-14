@@ -13,13 +13,16 @@ export default function Header() {
       {/* Header */}
       <header className="fixed top-0 w-full h-[5rem] z-40 bg-blue-1 shadow-md ">
         <nav className="flex h-full items-center justify-between ps-2 pe-4 py-2">
-          <Image
-            src="/logos/70e-Logo-Seulement.png"
-            alt="Logo seulement du 70e anniversaire de la Ville de Schefferville"
-            width={3730}
-            height={2269}
-            className="object-contain h-full w-fit bg-white rounded-lg"
-          />
+          <Link href="/home" className="h-full w-fit">
+            <Image
+              src="/logos/70e-Logo-Seulement.png"
+              alt="Logo seulement du 70e anniversaire de la Ville de Schefferville"
+              width={3730}
+              height={2269}
+              className="object-contain h-full w-fit bg-white rounded-lg"
+            />
+          </Link>
+
           <button onClick={() => setIsMenuOpen(true)}>
             <Menu size={30} className="stroke-3 text-white" />
           </button>
@@ -54,9 +57,17 @@ export default function Header() {
           <Link href="/press" onClick={() => setIsMenuOpen(false)}>
             Communiqués
           </Link>
+          <Link
+            href="https://museevirtuel.schefferville.ca/"
+            target="_blank"
+            onClick={() => setIsMenuOpen(false)}
+          >
+            Musée virtuel
+          </Link>
           <Link href="/contact" onClick={() => setIsMenuOpen(false)}>
             Nous joindre
           </Link>
+          <p className="text-lg">English</p>
         </nav>
       </div>
     </>
