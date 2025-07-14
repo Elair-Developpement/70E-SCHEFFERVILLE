@@ -9,7 +9,7 @@ export default function Header() {
       <nav className="flex h-full items-center justify-between ps-2 pe-4 py-2">
         <Image
           src="/logos/70e-Logo-Seulement.png"
-          alt="Logo horizontal du 70e anniversaire de la Ville de Schefferville"
+          alt="Logo seulement du 70e anniversaire de la Ville de Schefferville"
           width={3730}
           height={2269}
           className="object-contain h-full w-fit bg-white rounded-lg"
