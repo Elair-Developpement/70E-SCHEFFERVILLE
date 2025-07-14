@@ -1,0 +1,30 @@
+{
+  "running": {
+    "home": "Home",
+    "press": "Press Releases",
+    "events": "Events",
+    "v-museum": "Virtual Museum",
+    "contact-us": "Contact Us",
+    "locale-switcher-code": "fr",
+    "locale-switcher": "Français"
+  },
+  "home": {
+    "intro-title": "Welcome to the website for the 70th anniversary of the City of Schefferville",
+    "intro-text": "INTRO TEXT Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ligula diam, viverra quis varius non, pharetra et diam. Praesent ut est elit. Nulla fringilla semper tincidunt. Duis accumsan interdum placerat. Vestibulum facilisis vel tellus at pulvinar. Donec vel eros sed lacus dignissim feugiat. Pellentesque elit lectus, porta eu placerat ut, ultricies consequat tortor. In sed metus est. Nunc et tellus sapien. Praesent diam metus, scelerisque et eleifend sed, lobortis at ex. Integer ut rhoncus nisl. Nulla facilisi. Sed dictum diam a ipsum semper, id porta risus auctor. Vivamus ultricies orci sit amet diam malesuada, eu dapibus mauris tristique. Quisque porta rhoncus dictum. Praesent elementum velit a pulvinar iaculis.",
+    "press-title": "Headlines",
+    "press-latest": "Latest Press Release",
+    "press-more": "See all press releases",
+    "events-title": "Events",
+    "events-upcoming": "Upcoming Event",
+    "events-more": "See all events",
+    "museum-title": "Virtual Museum",
+    "museum-description": "INTRO TEXT FOR VIRTUAL MUSEUM AND OPENING DATE OF THE MUSEUM, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ligula diam, viverra quis varius non, pharetra et diam.",
+    "museum-visit": "Visit the virtual museum",
+    "partners": "Thank you to our partners",
+    "links": "Links for more information"
+  },
+  "events": {
+    "title": "Event Calendar",
+    "pdf": "View PDF Schedule"
+  }
+}
