@@ -9,7 +9,7 @@ import {
 export default function HomeCarousel() {
   return (
     <Carousel
-      className="w-auto h-auto"
+      className="w-full h-full"
       opts={{
         loop: true,
       }}
@@ -17,7 +17,7 @@ export default function HomeCarousel() {
       <CarouselContent>
         {["aurore", "aurore2", "barrage"].map((img, i) => (
           <CarouselItem key={i} className="flex items-center justify-center">
-            <div className="relative w-[80rem] h-[52rem] overflow-hidden rounded-lg">
+            <div className="relative w-full h-[20rem] overflow-hidden rounded-lg">
               <Image
                 src={`/images/carousel/${img}.jpg`}
                 alt={img}

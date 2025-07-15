@@ -3,7 +3,6 @@ import Link from "next/link";
 
 import { useTranslations } from "next-intl";
 
-import HomeCarousel from "./(components)/homeCarousel";
 import Home70eLogo from "./(components)/home70eLogo";
 import HomeTripleSlogan from "./(components)/homeTripleSlogan";
 
@@ -11,10 +10,7 @@ export default function Home() {
   const t = useTranslations("home");
 
   return (
-    <main className="block pt-[5rem] px-2 md:mx-auto md:max-w-[80rem]">
-      <div className="hidden">
-        <HomeCarousel />
-      </div>
+    <main className="block overscroll-none pt-[5rem] px-2 md:max-w-[80rem] md:mx-auto">
       <Home70eLogo />
       <HomeTripleSlogan />
       {/* Section pour texte d'introduction */}
@@ -88,7 +84,7 @@ export default function Home() {
               alt="Logo de la MRC de Caniapiscau"
               width={860}
               height={612}
-              className="object-contain w-full"
+              className="object-contain w-full md:max-w-[19rem]"
             />
           </Link>
           <Link href="https://www.quebec.ca" target="_blank">
@@ -97,7 +93,7 @@ export default function Home() {
               alt="Logo du Gouvernement du Québec"
               width={1200}
               height={675}
-              className="object-contain w-full"
+              className="object-contain w-full md:max-w-[24rem]"
             />
           </Link>
         </div>

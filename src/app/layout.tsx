@@ -6,6 +6,7 @@ import { Poppins, DM_Sans } from "next/font/google";
 import "./globals.css";
 
 import Header from "@/components/running/header";
+import Footer from "@/components/running/footer";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -37,6 +38,7 @@ export default async function RootLayout({
         <NextIntlClientProvider>
           <Header />
           {children}
+          <Footer />
         </NextIntlClientProvider>
       </body>
     </html>
