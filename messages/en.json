@@ -10,7 +10,7 @@
   },
   "home": {
     "intro-title": "Welcome to the website for the 70th anniversary of the City of Schefferville",
-    "intro-text": "INTRO TEXT Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ligula diam, viverra quis varius non, pharetra et diam. Praesent ut est elit. Nulla fringilla semper tincidunt. Duis accumsan interdum placerat. Vestibulum facilisis vel tellus at pulvinar. Donec vel eros sed lacus dignissim feugiat. Pellentesque elit lectus, porta eu placerat ut, ultricies consequat tortor. In sed metus est. Nunc et tellus sapien. Praesent diam metus, scelerisque et eleifend sed, lobortis at ex. Integer ut rhoncus nisl. Nulla facilisi. Sed dictum diam a ipsum semper, id porta risus auctor. Vivamus ultricies orci sit amet diam malesuada, eu dapibus mauris tristique. Quisque porta rhoncus dictum. Praesent elementum velit a pulvinar iaculis.",
+    "intro-text": "<p>In 2025, the City of Schefferville will celebrate an important milestone in its history: the 70th anniversary of its incorporation. Located north of the 54th parallel, the City celebrates seven decades of challenges, solidarity, and resilience through a series of festive, community, and memorial events bringing together the entire local and regional population.</p><p>Founded on <strong>August 1, 1955</strong>, Schefferville has become, over the decades, a symbol of diversity and determination. On this occasion, the City wishes to honor its industrial history, its deep roots with Indigenous Peoples, and the commitment of its citizens from yesterday to today.</p><p><em>“Schefferville is a unique city, born from a northern dream, forged in the collective effort of people from here and elsewhere, carried by the peoples who built and inhabited it. These 70 years offer us an opportunity to come together, to pass on our memory, and to celebrate the future with optimism” (Translated from french)</em>, states <strong>Ghislain Lévesque</strong>, a key figure in Schefferville's history, former resident, City administrator (2014 to 2020), and spokesperson for the festivities.</p>",
     "press-title": "Headlines",
     "press-latest": "Latest Press Release",
     "press-more": "See all press releases",
@@ -18,7 +18,7 @@
     "events-upcoming": "Upcoming Event",
     "events-more": "See all events",
     "museum-title": "Virtual Museum",
-    "museum-description": "INTRO TEXT FOR VIRTUAL MUSEUM AND OPENING DATE OF THE MUSEUM, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ligula diam, viverra quis varius non, pharetra et diam.",
+    "museum-description": "In honor of the Constitution of Schefferville, August 1, 1955, the exhibition by Madame Jocelyne Lemay \"Une montée vers le Nord\" will be presented on a virtual platform accessible to all.",
     "museum-visit": "Visit the virtual museum",
     "partners": "Thank you to our partners",
     "links": "Links for more information"

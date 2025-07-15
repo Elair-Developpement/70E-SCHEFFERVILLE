@@ -56,7 +56,7 @@ export default function Header() {
         </div>
 
         {/* Navigation Items */}
-        <nav className="flex flex-col items-center justify-center h-full gap-8 pb-[5rem] text-3xl font-bold text-blue-1">
+        <nav className="flex flex-col items-center justify-center h-full gap-8 pb-[8rem] text-3xl font-bold text-blue-1">
           <Link href="/home" onClick={() => setIsMenuOpen(false)}>
             {t("home")}
           </Link>

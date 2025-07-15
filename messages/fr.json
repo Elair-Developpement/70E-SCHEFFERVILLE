@@ -10,7 +10,7 @@
   },
   "home": {
     "intro-title": "Bienvenue sur le site du 70e anniversaire de la Ville de Schefferville",
-    "intro-text": "TEXTE DINTRODUCTION Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ligula diam, viverra quis varius non, pharetra et diam. Praesent ut est elit. Nulla fringilla semper tincidunt. Duis accumsan interdum placerat. Vestibulum facilisis vel tellus at pulvinar. Donec vel eros sed lacus dignissim feugiat. Pellentesque elit lectus, porta eu placerat ut, ultricies consequat tortor. In sed metus est. Nunc et tellus sapien. Praesent diam metus, scelerisque et eleifend sed, lobortis at ex. Integer ut rhoncus nisl. Nulla facilisi. Sed dictum diam a ipsum semper, id porta risus auctor. Vivamus ultricies orci sit amet diam malesuada, eu dapibus mauris tristique. Quisque porta rhoncus dictum. Praesent elementum velit a pulvinar iaculis.",
+    "intro-text": "<p>En 2025, la Ville de Schefferville souligne un jalon important de son histoire : le 70e anniversaire de son incorporation. Située au nord du 54e parallèle, la Ville célèbre sept décennies de défis, de solidarité et de résilience, à travers une série d’événements festifs, communautaires et mémoriels rassemblant l’ensemble de la population locale et régionale.</p><p>Fondée le <strong>1er août 1955</strong>, Schefferville est devenue, au fil des décennies, un symbole de diversité et de détermination. À l’occasion de cet anniversaire, la Ville souhaite mettre à l’honneur son histoire industrielle, ses racines profondes avec les Premières Nations, et l’engagement de ses citoyennes et citoyens d’hier à aujourd’hui.</p><p><em>«Schefferville est une ville unique, née d’un rêve nordique, forgée dans l’effort collectif des gens d’ici et d’ailleurs, portée par les peuples qui l’ont bâtie et habitée. Ces 70 ans nous offrent une occasion de nous rassembler, de transmettre la mémoire et de célébrer l’avenir avec optimisme»</em>, affirme <strong>Ghislain Lévesque</strong>, grand témoin de l’histoire scheffervilloise, ancien résident, administrateur de la Ville (2014 à 2020) et porte-parole des festivités.</p>",
     "press-title": "Manchettes",
     "press-latest": "Dernier communiqué",
     "press-more": "Voir tous les communiqués",
@@ -18,7 +18,7 @@
     "events-upcoming": "Prochain événement",
     "events-more": "Voir tous les événements",
     "museum-title": "Musée virtuel",
-    "museum-description": "TEXTE D'INTRODUCTION AU MUSÉE VIRTUEL ET DATE DOUVERTURE DU MUSÉE, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ligula diam, viverra quis varius non, pharetra et diam.",
+    "museum-description": "En l’honneur de la Constitution de Schefferville, le 1er août 1955, L’exposition de Madame Jocelyne Lemay «Une montée vers le Nord» sera présentée sur une plateforme virtuelle accessible à tous.",
     "museum-visit": "Visiter le musée virtuel",
     "partners": "Merci à nos partenaires",
     "links": "Liens pour plus d'informations"

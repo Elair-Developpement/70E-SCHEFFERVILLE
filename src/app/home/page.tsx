@@ -28,11 +28,17 @@ export default function Home() {
         <h1>{"«70 tetepun mamu etaiak Kie Nikan eshe shtetaiak»"}</h1>
       </div>
       {/* Section pour texte d'introduction */}
-      <div className="bg-teal-1 p-3 rounded-lg">
+      <div className="bg-teal-1 p-3 pb-1 rounded-lg">
         <h1 className="text-center text-l font-bold text-white pb-2">
           {t("intro-title")}
         </h1>
-        <p className="text-justify text-white">{t("intro-text")}</p>
+        <div className="text-justify text-white">
+          {t.rich("intro-text", {
+            p: (chunks) => <p className="mb-2">{chunks}</p>,
+            em: (chunks) => <em>{chunks}</em>,
+            strong: (chunks) => <strong>{chunks}</strong>,
+          })}
+        </div>
       </div>
       {/* Manchettes */}
       <div className="flex flex-col py-2">
@@ -77,7 +83,7 @@ export default function Home() {
         <Link
           href="https://museevirtuel.schefferville.ca/"
           target="_blank"
-          className="text-orange-1 font-bold w-fit self-center border-2 border-orange-1 rounded-lg py-1 px-2 text-center"
+          className="text-orange-1 font-bold w-fit self-center border-2 border-orange-1 rounded-lg mt-2 py-1 px-2 text-center"
         >
           {t("museum-visit")}
         </Link>
