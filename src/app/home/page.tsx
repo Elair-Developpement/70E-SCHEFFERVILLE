@@ -13,13 +13,20 @@ export default function Home() {
       <div className="hidden">
         <HomeCarousel />
       </div>
-      {/* Gros logo d'en-tête accueil */}
+      {/* Gros logo d'en-tête accueil, change selon si md ou non */}
       <Image
         src="/logos/70e-Logo-V.png"
         alt="Logo vertical du 70e anniversaire de la Ville de Schefferville"
         width={4320}
         height={3745}
-        className="object-contain w-4/5 md:max-w-1/2 h-auto mx-auto"
+        className="object-contain w-4/5 h-auto mx-auto md:hidden"
+      />
+      <Image
+        src="/logos/70e-Logo-H.png"
+        alt="Logo horizontal du 70e anniversaire de la Ville de Schefferville"
+        width={6481}
+        height={1988}
+        className="object-contain w-4/5 h-auto mx-auto max-md:hidden"
       />
       {/* Slogan 3 langues */}
       <div className="text-left text-blue-1 font-bold mt-3 mb-4">
