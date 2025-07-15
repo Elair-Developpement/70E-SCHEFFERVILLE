@@ -4,6 +4,8 @@ import Link from "next/link";
 import { useTranslations } from "next-intl";
 
 import HomeCarousel from "./(components)/homeCarousel";
+import Home70eLogo from "./(components)/home70eLogo";
+import HomeTripleSlogan from "./(components)/homeTripleSlogan";
 
 export default function Home() {
   const t = useTranslations("home");
@@ -13,27 +15,8 @@ export default function Home() {
       <div className="hidden">
         <HomeCarousel />
       </div>
-      {/* Gros logo d'en-tête accueil, change selon si md ou non */}
-      <Image
-        src="/logos/70e-Logo-V.png"
-        alt="Logo vertical du 70e anniversaire de la Ville de Schefferville"
-        width={4320}
-        height={3745}
-        className="object-contain w-4/5 h-auto mx-auto md:hidden"
-      />
-      <Image
-        src="/logos/70e-Logo-H.png"
-        alt="Logo horizontal du 70e anniversaire de la Ville de Schefferville"
-        width={6481}
-        height={1988}
-        className="object-contain w-4/5 h-auto mx-auto max-md:hidden"
-      />
-      {/* Slogan 3 langues */}
-      <div className="text-left text-blue-1 font-bold mt-3 mb-4">
-        <h1>{"«70 ans ensemble et tourné vers l’avenir»"}</h1>
-        <h1>{"«70 ᑕᑐᔪᐛᐳᓇ ᒪᒧᐤ ᐊᑕᔭᒄ ᑭᔭ ᓂᑲᓐ ᐊᓯᔅᑐᔭᒄ»"}</h1>
-        <h1>{"«70 tetepun mamu etaiak Kie Nikan eshe shtetaiak»"}</h1>
-      </div>
+      <Home70eLogo />
+      <HomeTripleSlogan />
       {/* Section pour texte d'introduction */}
       <div className="bg-teal-1 p-3 pb-1 rounded-lg">
         <h1 className="text-center text-l font-bold text-white pb-2">
