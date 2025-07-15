@@ -10,7 +10,7 @@ export default function Home() {
   const t = useTranslations("home");
 
   return (
-    <main className="block overscroll-none pt-[5rem] px-2 md:max-w-[80rem] md:mx-auto">
+    <main className="block pt-[5rem] px-2 md:max-w-[80rem] md:mx-auto">
       <Home70eLogo />
       <HomeTripleSlogan />
       {/* Section pour texte d'introduction */}
@@ -78,7 +78,11 @@ export default function Home() {
       <div className="flex flex-col py-2">
         <h1 className="text-xl text-blue-1 font-bold">{t("partners")}</h1>
         <div className="flex">
-          <Link href="https://www.caniapiscau.ca" target="_blank">
+          <Link
+            href="https://www.caniapiscau.ca"
+            target="_blank"
+            className="text-center font-semibold"
+          >
             <Image
               src="/images/partners/Logo_MRC_de_Caniapiscau.png"
               alt="Logo de la MRC de Caniapiscau"
@@ -86,8 +90,13 @@ export default function Home() {
               height={612}
               className="object-contain w-full md:max-w-[19rem]"
             />
+            La MRC de Caniapiscau
           </Link>
-          <Link href="https://www.quebec.ca" target="_blank">
+          <Link
+            href="https://www.quebec.ca/gouvernement/ministeres-organismes/societe-plan-nord"
+            target="_blank"
+            className="text-center font-semibold"
+          >
             <Image
               src="/images/partners/Gouv_Quebec_logo.png"
               alt="Logo du Gouvernement du Québec"
@@ -95,6 +104,7 @@ export default function Home() {
               height={675}
               className="object-contain w-full md:max-w-[24rem]"
             />
+            La société du Plan Nord
           </Link>
         </div>
       </div>

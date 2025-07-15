@@ -11,7 +11,7 @@
     "links": "Our Links"
   },
   "home": {
-    "intro-title": "Welcome to the website for the 70th anniversary of the City of Schefferville",
+    "intro-title": "Schefferville celebrates its 70th anniversary!",
     "intro-text": "<p>In 2025, the City of Schefferville will celebrate an important milestone in its history: the 70th anniversary of its incorporation. Located north of the 54th parallel, the City celebrates seven decades of challenges, solidarity, and resilience through a series of festive, community, and memorial events bringing together the entire local and regional population.</p><p>Founded on <strong>August 1, 1955</strong>, Schefferville has become, over the decades, a symbol of diversity and determination. On this occasion, the City wishes to honor its industrial history, its deep roots with Indigenous Peoples, and the commitment of its citizens from yesterday to today.</p><p><em>“Schefferville is a unique city, born from a northern dream, forged in the collective effort of people from here and elsewhere, carried by the peoples who built and inhabited it. These 70 years offer us an opportunity to come together, to pass on our memory, and to celebrate the future with optimism” (Translated from french)</em>, states <strong>Ghislain Lévesque</strong>, a key figure in Schefferville's history, former resident, City administrator (2014 to 2020), and spokesperson for the festivities.</p>",
     "press-title": "Headlines",
     "press-latest": "Latest Press Release",
@@ -28,5 +28,12 @@
   "events": {
     "title": "Event Calendar",
     "pdf": "View PDF Schedule"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "people": "Key contacts:",
+    "email": "Email:",
+    "phone": "Phone Number:",
+    "julie-title": "Event Coordinator"
   }
 }

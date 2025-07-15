@@ -7,7 +7,7 @@ export default function Events() {
   const t = useTranslations("events");
 
   return (
-    <main className="block pt-[5rem] px-2 md:mx-auto md:max-w-[80rem] md:min-h-screen">
+    <main className="block pt-[5rem] px-2 md:max-w-[80rem] md:mx-auto md:min-h-screen">
       <BackToHomeButton />
       <h1 className="text-3xl text-center font-bold text-blue-1">
         {t("title")}

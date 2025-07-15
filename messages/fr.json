@@ -11,7 +11,7 @@
     "links": "Nos liens"
   },
   "home": {
-    "intro-title": "Bienvenue sur le site du 70e anniversaire de la Ville de Schefferville",
+    "intro-title": "Schefferville fête son 70e anniversaire!",
     "intro-text": "<p>En 2025, la Ville de Schefferville souligne un jalon important de son histoire : le 70e anniversaire de son incorporation. Située au nord du 54e parallèle, la Ville célèbre sept décennies de défis, de solidarité et de résilience, à travers une série d’événements festifs, communautaires et mémoriels rassemblant l’ensemble de la population locale et régionale.</p><p>Fondée le <strong>1er août 1955</strong>, Schefferville est devenue, au fil des décennies, un symbole de diversité et de détermination. À l’occasion de cet anniversaire, la Ville souhaite mettre à l’honneur son histoire industrielle, ses racines profondes avec les Premières Nations, et l’engagement de ses citoyennes et citoyens d’hier à aujourd’hui.</p><p><em>«Schefferville est une ville unique, née d’un rêve nordique, forgée dans l’effort collectif des gens d’ici et d’ailleurs, portée par les peuples qui l’ont bâtie et habitée. Ces 70 ans nous offrent une occasion de nous rassembler, de transmettre la mémoire et de célébrer l’avenir avec optimisme»</em>, affirme <strong>Ghislain Lévesque</strong>, grand témoin de l’histoire scheffervilloise, ancien résident, administrateur de la Ville (2014 à 2020) et porte-parole des festivités.</p>",
     "press-title": "Manchettes",
     "press-latest": "Dernier communiqué",
@@ -28,5 +28,13 @@
   "events": {
     "title": "Calendrier événementiel",
     "pdf": "Consulter la programmation PDF"
+  },
+  "contact": {
+    "title": "Nous joindre",
+    "people": "Personnes ressources:",
+    "email": "Courriel:",
+    "phone": "Numéro de téléphone:",
+    "julie-title": "Coordonatrice de l'événement",
+    "ghislain-title": "Porte-parole"
   }
 }
