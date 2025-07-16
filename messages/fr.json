@@ -13,6 +13,10 @@
     "11": "novembre",
     "12": "décembre"
   },
+  "common": {
+    "loading": "Chargement...",
+    "know-more": "En savoir plus"
+  },
   "running": {
     "home": "Accueil",
     "press": "Communiqués",

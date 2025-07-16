@@ -4,6 +4,7 @@ import Link from "next/link";
 
 import { useTranslations } from "next-intl";
 import { useState, useEffect, useTransition } from "react";
+import { ExternalLink } from "lucide-react";
 
 import { createClient } from "@/lib/supabase/client";
 import Event from "@/lib/types/event";
@@ -12,6 +13,7 @@ import { getDayFromDate, getMonthFromDate } from "@/lib/utils";
 export default function HomeUpcomingEvent() {
   const t = useTranslations("home");
   const c = useTranslations("calendar");
+  const com = useTranslations("common");
   const [events, setEvents] = useState<Event[]>([]);
   const [upcomingEvent, setUpcomingEvent] = useState<Event | null>(null);
   const [isPending, startTransition] = useTransition();
@@ -47,7 +49,7 @@ export default function HomeUpcomingEvent() {
     <div className="flex flex-col py-2">
       <h1 className="text-2xl text-blue-1 font-bold">{t("events-title")}</h1>
       <h2 className="text-lg text-blue-2">{t("events-upcoming")}</h2>
-      {isPending && <p className="text-gray-500">Loading upcoming event...</p>}
+      {isPending && <p className="text-gray-500">{com("loading")}</p>}
       <div className="flex">
         <h1 className="text-4xl font-bold text-orange-1">
           {getDayFromDate(upcomingEvent?.date || "")}
@@ -56,7 +58,22 @@ export default function HomeUpcomingEvent() {
           {c(getMonthFromDate(upcomingEvent?.date || ""))}
         </p>
       </div>
-      <h1 className="text-xl font-bold text-green-1">{upcomingEvent?.name}</h1>
+      {upcomingEvent?.link ? (
+        <a
+          href={upcomingEvent?.link}
+          target="_blank"
+          className="flex underline"
+        >
+          <h1 className="text-xl font-bold text-green-1">
+            {upcomingEvent?.name}
+          </h1>
+          <ExternalLink size={26} className="stroke-3 text-green-1 ps-1" />
+        </a>
+      ) : (
+        <h1 className="text-xl font-bold text-green-1">
+          {upcomingEvent?.name}
+        </h1>
+      )}
       <p className="">{upcomingEvent?.desc}</p>
       <Link href="/events" className="text-orange-1 underline self-end pt-2">
         {t("events-more")}
