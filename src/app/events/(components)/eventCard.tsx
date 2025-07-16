@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 import { useTranslations } from "next-intl";
 import { ExternalLink } from "lucide-react";
 
@@ -8,15 +6,15 @@ import { getDayFromDate, getMonthFromDate } from "@/lib/utils";
 
 export default function EventCard({
   date,
-  hour,
-  hour_end,
+  //hour,
+  //hour_end,
   name,
-  name_eng,
+  //name_eng,
   desc,
-  desc_end,
+  //desc_end,
   link,
-  add_desc,
-  add_desc_eng,
+  //add_desc,
+  //add_desc_eng,
 }: Event) {
   const t = useTranslations("calendar");
   const c = useTranslations("common");

@@ -38,21 +38,22 @@ export default function Events() {
         {t("title")}
       </h1>
       <p className="text-lg text-center underline text-orange-1">{t("pdf")}</p>
-      {events.map((event, index) => (
-        <EventCard
-          key={index}
-          date={event.date}
-          hour={event.hour}
-          hour_end={event.hour_end}
-          name={event.name}
-          name_eng={event.name_eng}
-          desc={event.desc}
-          desc_eng={event.desc_eng}
-          link={event.link}
-          add_desc={event.add_desc}
-          add_desc_eng={event.add_desc_eng}
-        />
-      ))}
+      {!isPending &&
+        events.map((event, index) => (
+          <EventCard
+            key={index}
+            date={event.date}
+            hour={event.hour}
+            hour_end={event.hour_end}
+            name={event.name}
+            name_eng={event.name_eng}
+            desc={event.desc}
+            desc_eng={event.desc_eng}
+            link={event.link}
+            add_desc={event.add_desc}
+            add_desc_eng={event.add_desc_eng}
+          />
+        ))}
     </main>
   );
 }
