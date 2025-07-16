@@ -12,7 +12,7 @@ export default function Home() {
   const t = useTranslations("home");
 
   return (
-    <main className="block pt-[5rem] px-2 md:max-w-[80rem] md:mx-auto">
+    <main className="block pt-[5rem] px-2 md:max-w-[80rem] md:mx-auto min-h-[calc(100vh-25rem)]">
       <Home70eLogo />
       <HomeTripleSlogan />
       {/* Section pour texte d'introduction */}

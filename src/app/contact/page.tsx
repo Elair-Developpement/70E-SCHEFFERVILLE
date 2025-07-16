@@ -7,7 +7,7 @@ export default function Contact() {
   const t = useTranslations("contact");
 
   return (
-    <main className="block pt-[5rem] px-2 md:max-w-[80rem] md:mx-auto md:min-h-screen">
+    <main className="block pt-[5rem] px-2 md:max-w-[80rem] md:mx-auto min-h-[calc(100vh-25rem)]">
       <BackToHomeButton />
       <h1 className="text-3xl md:text-5xl text-center font-bold text-blue-1">
         {t("title")}

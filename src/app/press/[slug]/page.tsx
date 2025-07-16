@@ -45,7 +45,7 @@ export default function PressPage({
   }, [slug]);
 
   return (
-    <main className="block pt-[5rem] md:max-w-[80rem] md:mx-auto md:min-h-screen">
+    <main className="block pt-[5rem] md:max-w-[80rem] md:mx-auto min-h-[calc(100vh-25rem)]">
       {isPending && <div>Chargement...</div>}
       {press && (
         <div className="">

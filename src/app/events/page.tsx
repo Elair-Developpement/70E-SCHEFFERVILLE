@@ -31,13 +31,13 @@ export default function Events() {
   }, []);
 
   return (
-    <main className="block pt-[5rem] px-2 md:max-w-[80rem] md:mx-auto md:min-h-screen">
+    <main className="block pt-[5rem] px-2 md:max-w-[80rem] md:mx-auto min-h-[calc(screen-20rem)]">
       <BackToHomeButton />
       <h1 className="text-3xl text-center font-bold text-blue-1">
         {t("title")}
       </h1>
       <p className="text-lg text-center underline text-orange-1">{t("pdf")}</p>
-      {!isPending &&
+      {events &&
         events.map((event, index) => <EventCard key={index} {...event} />)}
     </main>
   );

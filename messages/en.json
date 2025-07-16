@@ -26,7 +26,12 @@
     "locale-switcher-code": "fr",
     "locale-switcher": "Français",
     "back-home": "Back to Home",
-    "links": "Our Links"
+    "links": "Our Links",
+    "link-website": "Ville de Schefferville",
+    "link-corporation": "Corporation de développement",
+    "link-facebook": "Facebook Page",
+    "copyright": "© 2025 All rights reserved. Ville de Schefferville",
+    "conception": "Conception :"
   },
   "home": {
     "intro-title": "Schefferville celebrates its 70th anniversary!",
