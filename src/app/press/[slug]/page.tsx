@@ -9,7 +9,6 @@ import ReactMarkdown from "react-markdown";
 
 import { createClient } from "@/lib/supabase/client";
 import BackToHomeButton from "@/components/navigation/backToHomeButton";
-import Home70eLogo from "@/app/home/(components)/home70eLogo";
 import IPress from "@/lib/types/iPress";
 
 export default function PressPage({
@@ -47,6 +46,7 @@ export default function PressPage({
 
   return (
     <main className="block pt-[5rem] md:max-w-[80rem] md:mx-auto md:min-h-screen">
+      {isPending && <div>Chargement...</div>}
       {press && (
         <div className="">
           <Image
