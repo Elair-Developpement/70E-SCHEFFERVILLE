@@ -37,6 +37,7 @@ export default function Events() {
         {t("title")}
       </h1>
       <p className="text-lg text-center underline text-orange-1">{t("pdf")}</p>
+      {isPending && <div>Loading...</div>}
       {events &&
         events.map((event, index) => <EventCard key={index} {...event} />)}
     </main>
