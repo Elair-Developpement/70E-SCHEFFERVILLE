@@ -4,29 +4,32 @@ import { useTranslations } from "next-intl";
 import { useState, useEffect, useTransition } from "react";
 
 import { createClient } from "@/lib/supabase/client";
-import Event from "@/lib/types/event";
 import BackToHomeButton from "@/components/navigation/backToHomeButton";
-import EventCard from "./(components)/eventCard";
+import IPress from "@/lib/types/iPress";
+import PressCard from "./(components)/pressCard";
 
-export default function Events() {
-  const t = useTranslations("events");
+export default function Press() {
+  const t = useTranslations("press");
   const supabase = createClient();
-  const [events, setEvents] = useState<Event[]>([]);
+  const [presses, setPresses] = useState<IPress[]>([]);
   const [isPending, startTransition] = useTransition();
 
   useEffect(() => {
     startTransition(async () => {
       const { data, error } = await supabase
-        .from("events")
+        .from("press")
         .select("*")
-        .order("date", { ascending: true });
+        .order("publish_date", { ascending: false });
 
       if (error) {
-        console.error("Erreur lors de l'obtention des événements", error);
+        console.error(
+          "Erreur lors de l'obtention des communiqués de presse",
+          error
+        );
         return;
       }
 
-      setEvents(data);
+      setPresses(data);
     });
   }, []);
 
@@ -36,9 +39,8 @@ export default function Events() {
       <h1 className="text-3xl text-center font-bold text-blue-1">
         {t("title")}
       </h1>
-      <p className="text-lg text-center underline text-orange-1">{t("pdf")}</p>
       {!isPending &&
-        events.map((event, index) => <EventCard key={index} {...event} />)}
+        presses.map((press, index) => <PressCard key={index} {...press} />)}
     </main>
   );
 }

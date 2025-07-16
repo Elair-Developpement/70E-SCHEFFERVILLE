@@ -43,6 +43,11 @@
     "partners": "Merci à nos partenaires",
     "links": "Liens pour plus d'informations"
   },
+  "press": {
+    "title": "Communiqués",
+    "read-more": "Lire la suite",
+    "pdf": "Consulter le communiqué en PDF"
+  },
   "events": {
     "title": "Calendrier événementiel",
     "pdf": "Consulter la programmation PDF"

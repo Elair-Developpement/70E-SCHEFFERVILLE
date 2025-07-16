@@ -11,6 +11,13 @@ const nextConfig: NextConfig = {
       },
     ];
   },
+  images: {
+    remotePatterns: [
+      new URL(
+        "https://tplhwzejgzgrpqclrkse.supabase.co/storage/v1/object/public/documents/press/images/**"
+      ),
+    ],
+  },
 };
 
 const withNextIntl = createNextIntlPlugin();

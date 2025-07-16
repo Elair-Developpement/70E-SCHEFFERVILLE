@@ -10,6 +10,10 @@ import { createClient } from "@/lib/supabase/client";
 import Event from "@/lib/types/event";
 import { getDayFromDate, getMonthFromDate } from "@/lib/utils";
 
+/**
+ * Module de la page d'accueil qui affiche le prochain événement
+ * @returns JSX.Element
+ */
 export default function HomeUpcomingEvent() {
   const t = useTranslations("home");
   const c = useTranslations("calendar");
