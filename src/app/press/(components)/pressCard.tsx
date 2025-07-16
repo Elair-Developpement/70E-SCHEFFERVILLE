@@ -11,7 +11,7 @@ export default function PressCard(pressProp: IPress) {
 
   return (
     <div className="flex flex-col w-full border-2 border-blue-2 rounded-2xl gap-1 p-2 md:flex-row md:gap-4">
-      <div className="flex w-full gap-1 md:flex-col">
+      <div className="flex flex-col w-full gap-1">
         <h1 className="text-center text-lg font-bold text-green-1 md:hidden">
           {pressProp.title}
         </h1>
