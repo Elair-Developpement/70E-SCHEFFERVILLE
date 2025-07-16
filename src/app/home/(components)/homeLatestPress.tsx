@@ -16,6 +16,7 @@ export default function HomeLatestPress() {
 
   useEffect(() => {
     const supabase = createClient();
+
     startTransition(async () => {
       const { data, error } = await supabase
         .from("press")
@@ -42,7 +43,7 @@ export default function HomeLatestPress() {
       <h2 className="text-lg text-blue-2">{t("press-latest")}</h2>
       {!isPending && (
         <div className="mt-1">
-          <PressCard {...press!} />{" "}
+          <PressCard {...press!} />
         </div>
       )}
       <Link href="/press" className="text-orange-1 underline self-end pt-2">

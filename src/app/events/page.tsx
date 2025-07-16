@@ -10,11 +10,11 @@ import EventCard from "./(components)/eventCard";
 
 export default function Events() {
   const t = useTranslations("events");
-  const supabase = createClient();
   const [events, setEvents] = useState<Event[]>([]);
   const [isPending, startTransition] = useTransition();
 
   useEffect(() => {
+    const supabase = createClient();
     startTransition(async () => {
       const { data, error } = await supabase
         .from("events")
