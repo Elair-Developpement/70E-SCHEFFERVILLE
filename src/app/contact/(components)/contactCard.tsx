@@ -26,7 +26,7 @@ export default function ContactCard({
         alt={name}
         width={666}
         height={1000}
-        className="w-2/5 rounded-2xl md:max-w-1/5"
+        className="object-cover w-2/5 h-fit rounded-2xl md:max-w-1/5"
       />
       <div className="flex flex-col justify-center ps-2 md:ps-6 w-3/5 gap-1 md:gap-2">
         <h3 className="text-2xl md:text-4xl font-bold text-blue-1">{name}</h3>
