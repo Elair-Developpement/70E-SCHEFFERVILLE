@@ -16,7 +16,7 @@ export default function Home() {
       <Home70eLogo />
       <HomeTripleSlogan />
       {/* Section pour texte d'introduction */}
-      <div className="bg-teal-1 p-3 pb-1 rounded-lg">
+      <div className="bg-teal-1 p-3 pb-1 mb-3 rounded-lg">
         <h1 className="text-center text-l font-bold text-white pb-2">
           {t("intro-title")}
         </h1>

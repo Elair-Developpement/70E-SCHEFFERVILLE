@@ -16,7 +16,7 @@ export default function Footer() {
           className="object-contain w-fit h-[6rem] bg-white rounded-2xl"
         />
       </div>
-      <p className="text-sm mt-10 mb-2">{t("links")}</p>
+      <p className="text-sm mt-6 mb-2">{t("links")}</p>
       <div className="flex flex-col gap-2">
         <a
           href="https://www.schefferville.ca/"
