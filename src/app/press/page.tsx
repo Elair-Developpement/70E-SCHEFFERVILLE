@@ -40,7 +40,11 @@ export default function Press() {
         {t("title")}
       </h1>
       {!isPending &&
-        presses.map((press, index) => <PressCard key={index} {...press} />)}
+        presses.map((press, index) => (
+          <div key={index} className="mt-3">
+            <PressCard {...press} />
+          </div>
+        ))}
     </main>
   );
 }
