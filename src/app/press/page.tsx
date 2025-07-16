@@ -10,11 +10,11 @@ import PressCard from "./(components)/pressCard";
 
 export default function Press() {
   const t = useTranslations("press");
-  const supabase = createClient();
   const [presses, setPresses] = useState<IPress[]>([]);
   const [isPending, startTransition] = useTransition();
 
   useEffect(() => {
+    const supabase = createClient();
     startTransition(async () => {
       const { data, error } = await supabase
         .from("press")

@@ -5,6 +5,7 @@ import { useTranslations } from "next-intl";
 
 import Home70eLogo from "./(components)/home70eLogo";
 import HomeTripleSlogan from "./(components)/homeTripleSlogan";
+import HomeLatestPress from "./(components)/homeLatestPress";
 import HomeUpcomingEvent from "./(components)/homeUpcomingEvent";
 
 export default function Home() {
@@ -27,20 +28,7 @@ export default function Home() {
           })}
         </div>
       </div>
-      {/* Manchettes */}
-      <div className="flex flex-col py-2">
-        <h1 className="text-2xl text-blue-1 font-bold">{t("press-title")}</h1>
-        <h2 className="text-lg text-blue-2">{t("press-latest")}</h2>
-        <p className="font-bold">TITRE</p>
-        <p className="">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ligula
-          diam, viverra quis varius non, pharetra et diam.
-        </p>
-        <Link href="/press" className="text-orange-1 underline self-end pt-2">
-          {t("press-more")}
-        </Link>
-      </div>
-      {/* Évènements/Programmation */}
+      <HomeLatestPress />
       <HomeUpcomingEvent />
       {/* Section dédié au musée virtuel */}
       <div className="flex flex-col border-4 border-teal-1 p-3 rounded-lg my-2">
