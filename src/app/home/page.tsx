@@ -35,7 +35,7 @@ export default function Home() {
         <h1 className=" text-teal-1 text-2xl text-center font-bold">
           {t("museum-title")}
         </h1>
-        <p className="text-blue-2 text-lg text-justify">
+        <p className="text-blue-2 text-justify">
           {t.rich("museum-description", {
             p: (chunks) => <p className="mb-2">{chunks}</p>,
           })}

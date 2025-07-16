@@ -27,7 +27,7 @@ export default function PressCard(pressProp: IPress) {
         <h1 className="text-center text-lg font-bold text-green-1 max-md:hidden">
           {pressProp.title}
         </h1>
-        <div className="line-clamp-3 md:line-clamp-5 text-justify">
+        <div className="line-clamp-4 md:line-clamp-6 mt-1">
           <ReactMarkdown>{pressProp.body}</ReactMarkdown>
         </div>
         <div>
