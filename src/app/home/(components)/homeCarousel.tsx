@@ -6,6 +6,11 @@ import {
   CarouselItem,
 } from "@/components/ui/carousel";
 
+/**
+ * Caroussel d'images pour la page d'accueil.
+ * TODO: Pas encore de texte et dimensions weird...
+ * @returns JSX.Element
+ */
 export default function HomeCarousel() {
   return (
     <Carousel
