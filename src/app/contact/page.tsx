@@ -1,4 +1,5 @@
 import { useTranslations } from "next-intl";
+import { ChevronRight } from "lucide-react";
 
 import BackToHomeButton from "@/components/navigation/backToHomeButton";
 import ContactCard from "./(components)/contactCard";
@@ -34,6 +35,10 @@ export default function Contact() {
           />
         </div>
       </div>
+      <p className="flex mt-4 md:text-xl text-orange-1 underline">
+        {t("visit-website")}
+        <ChevronRight size={26} />
+      </p>
     </main>
   );
 }
