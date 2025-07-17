@@ -1,6 +1,7 @@
 import Image from "next/image";
 
 import { useTranslations } from "next-intl";
+import { ChevronRight } from "lucide-react";
 
 interface Props {
   photo: string;
@@ -8,6 +9,7 @@ interface Props {
   title: string;
   email: string;
   phone: string;
+  portrait_link?: string;
 }
 
 export default function ContactCard(props: Props) {
@@ -20,7 +22,7 @@ export default function ContactCard(props: Props) {
         alt={props.name}
         width={666}
         height={1000}
-        className="object-cover w-2/5 h-fit rounded-2xl md:max-w-1/5"
+        className="object-cover w-2/5 rounded-2xl md:max-w-1/5"
       />
       <div className="flex flex-col justify-center ps-2 md:ps-6 w-3/5 gap-1 md:gap-2">
         <h3 className="text-2xl md:text-4xl font-bold text-blue-1">
@@ -47,6 +49,16 @@ export default function ContactCard(props: Props) {
             {props.phone}
           </a>
         </div>
+        {props.portrait_link && (
+          <a
+            href={props.portrait_link}
+            target="_blank"
+            className="flex underline text-lg text-blue-1 font-bold"
+          >
+            {t("portrait")}
+            <ChevronRight size={26} />
+          </a>
+        )}
       </div>
     </div>
   );
