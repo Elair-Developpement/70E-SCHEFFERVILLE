@@ -31,7 +31,7 @@ export default function Events() {
   }, []);
 
   return (
-    <main className="block pt-[5rem] px-2 md:max-w-[80rem] md:mx-auto min-h-[calc(screen-20rem)]">
+    <main className="block pt-[5rem] px-2 md:max-w-[80rem] md:mx-auto min-h-[calc(100vh-25rem)]">
       <BackToHomeButton />
       <h1 className="text-3xl text-center font-bold text-blue-1">
         {t("title")}
