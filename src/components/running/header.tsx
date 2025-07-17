@@ -67,7 +67,7 @@ export default function Header() {
             {t("events")}
           </Link>
           <Link
-            href="https://museevirtuel.schefferville.ca/"
+            href="https://tplhwzejgzgrpqclrkse.supabase.co/storage/v1/object/public/documents/events/Invitation-1eraout-%20museevirtuel.png"
             target="_blank"
             onClick={() => setIsMenuOpen(false)}
           >
