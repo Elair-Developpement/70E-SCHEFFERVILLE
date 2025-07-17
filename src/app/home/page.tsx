@@ -32,9 +32,13 @@ export default function Home() {
       <HomeUpcomingEvent />
       {/* Section dédié au musée virtuel */}
       <div className="flex flex-col border-4 border-teal-1 p-3 rounded-lg my-2">
-        <h1 className=" text-teal-1 text-2xl text-center font-bold">
+        <h1 className="text-teal-1 text-2xl text-center font-bold">
           {t("museum-title")}
         </h1>
+        <h2 className="text-teal-1 text-center text-lg">
+          Minutakushinikᵘ Ka uapatiuenanut atusseu-katshitapatakanit
+          eishi-kanuenitashunanut anite Schefferville/Matimekus
+        </h2>
         <p className="text-blue-2 text-justify">
           {t.rich("museum-description", {
             p: (chunks) => <p className="mb-2">{chunks}</p>,

@@ -46,6 +46,12 @@ export default function PressPage({
 
   return (
     <main className="block pt-[5rem] md:max-w-[80rem] md:mx-auto min-h-[calc(100vh-25rem)]">
+      {!isPending && !press && (
+        <div>
+          <div>Communiqué introuvable...</div>
+          <BackToHomeButton />
+        </div>
+      )}
       {isPending && <div>Chargement...</div>}
       {press && (
         <div className="">
@@ -54,9 +60,18 @@ export default function PressPage({
             alt={press.title}
             width={600}
             height={600}
-            className="object-cover w-full "
+            className="object-cover w-full md:max-h-[35rem]"
           />
-          <BackToHomeButton />
+          <div className="flex justify-between">
+            <BackToHomeButton />
+            <Image
+              src="/logos/70e-Logo-H.png"
+              alt="Logo horizontal du 70e anniversaire de la Ville de Schefferville"
+              width={6481}
+              height={1988}
+              className="object-contain w-1/2 md:w-1/3"
+            />
+          </div>
           <div className="flex flex-col px-2 gap-2">
             <div className="flex w-full gap-1 md:flex-col">
               <h1 className="text-center text-xl md:text-2xl font-bold text-green-1">
