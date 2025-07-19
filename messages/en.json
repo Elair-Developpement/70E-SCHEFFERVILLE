@@ -43,7 +43,7 @@
     "events-upcoming": "Upcoming Event",
     "events-more": "See all events",
     "museum-title": "Virtual Museum",
-    "museum-description": "In honor of the Constitution of Schefferville, August 1, 1955, the exhibition by Madame Jocelyne Lemay \"Une montée vers le Nord\" will be presented on a virtual platform accessible to all.",
+    "museum-description": "<p>The Schefferville online museum invites you to delve into the fascinating history of this northern territory located at the heart of the Labrador Trough. From the nomadic lives of the Innu and Naskapi peoples to the great mining epics of the 20th century, including the founding of the town and its contemporary revival, this site pays tribute to the builders, Indigenous communities, workers, and families who shaped this unique place.</p><p>Explore a rich collection of stories, images, maps, testimonies, and archives, accessible to everyone, everywhere in the world. This museum is an invitation to deepen understanding, to remember, and to celebrate Schefferville’s identity.</p>",
     "museum-visit": "Visit the virtual museum",
     "museum-invite": "Voir l'invitation",
     "partners": "Thank you to our partners",
@@ -63,8 +63,9 @@
     "people": "Key contacts :",
     "email": "Email :",
     "phone": "Phone Number :",
-    "julie-title": "Event Coordinator",
+    "julie-title": "Community relations manager",
     "ghislain-title": "Spokesperson",
-    "portrait": "Consulter portrait"
+    "portrait": "See portrait",
+    "visit-website": "Visit Schefferville's main website"
   }
 }

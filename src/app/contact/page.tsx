@@ -35,10 +35,14 @@ export default function Contact() {
           />
         </div>
       </div>
-      <p className="flex mt-4 md:text-xl text-orange-1 underline">
+      <a
+        href="https://www.schefferville.ca/"
+        target="_blank"
+        className="flex mt-4 md:text-xl text-orange-1 underline"
+      >
         {t("visit-website")}
         <ChevronRight size={26} />
-      </p>
+      </a>
     </main>
   );
 }
