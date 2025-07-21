@@ -39,11 +39,11 @@ export default function Home() {
           Minutakushinikᵘ Ka uapatiuenanut atusseu-katshitapatakanit
           eishi-kanuenitashunanut anite Schefferville/Matimekus
         </h2>
-        <p className="text-blue-2 text-justify">
+        <div className="text-blue-2 text-justify">
           {t.rich("museum-description", {
             p: (chunks) => <p className="mb-2">{chunks}</p>,
           })}
-        </p>
+        </div>
         <Link
           href="https://tplhwzejgzgrpqclrkse.supabase.co/storage/v1/object/public/documents/events/Invitation-1eraout-%20museevirtuel.png"
           target="_blank"

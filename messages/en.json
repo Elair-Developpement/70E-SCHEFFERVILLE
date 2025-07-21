@@ -15,6 +15,7 @@
   },
   "common": {
     "loading": "Loading...",
+    "loading-error": "Error during loading...",
     "know-more": "More info"
   },
   "running": {

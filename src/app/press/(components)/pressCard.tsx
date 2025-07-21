@@ -15,13 +15,15 @@ export default function PressCard(pressProp: IPress) {
         <h1 className="text-center text-lg font-bold text-green-1 md:hidden">
           {pressProp.title}
         </h1>
-        <Image
-          src={pressProp.image_link}
-          alt={pressProp.title}
-          width={600}
-          height={600}
-          className="object-cover w-full rounded-xl"
-        />
+        {pressProp.image_link && (
+          <Image
+            src={pressProp.image_link}
+            alt={pressProp.title}
+            width={600}
+            height={600}
+            className="object-cover w-full rounded-xl"
+          />
+        )}
       </div>
       <div className="flex flex-col md:justify-center">
         <h1 className="text-center text-lg font-bold text-green-1 max-md:hidden">
