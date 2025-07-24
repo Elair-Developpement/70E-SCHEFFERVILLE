@@ -82,7 +82,7 @@ export default function HomeUpcomingEvent() {
           )}
           <p className="">{upcomingEvent?.desc}</p>
           <Link
-            href="/events"
+            href="/evenements"
             className="text-orange-1 underline self-end pt-2"
           >
             {t("events-more")}

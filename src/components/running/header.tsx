@@ -19,7 +19,7 @@ export default function Header() {
       {/* Header */}
       <header className="fixed top-0 w-full h-[5rem] z-40 bg-blue-1 shadow-md ">
         <nav className="flex h-full items-center justify-between ps-2 pe-4 py-2">
-          <Link href="/home" className="h-full w-fit">
+          <Link href="/accueil" className="h-full w-fit">
             <Image
               src="/logos/70e-Logo-Seulement.png"
               alt="Logo seulement du 70e anniversaire de la Ville de Schefferville"
@@ -57,13 +57,13 @@ export default function Header() {
 
         {/* Navigation Items */}
         <nav className="flex flex-col items-center justify-center h-full gap-8 pb-[8rem] text-3xl font-bold text-blue-1">
-          <Link href="/home" onClick={() => setIsMenuOpen(false)}>
+          <Link href="/accueil" onClick={() => setIsMenuOpen(false)}>
             {t("home")}
           </Link>
-          <Link href="/press" onClick={() => setIsMenuOpen(false)}>
+          <Link href="/communiques" onClick={() => setIsMenuOpen(false)}>
             {t("press")}
           </Link>
-          <Link href="/events" onClick={() => setIsMenuOpen(false)}>
+          <Link href="/evenements" onClick={() => setIsMenuOpen(false)}>
             {t("events")}
           </Link>
           <Link
@@ -73,7 +73,7 @@ export default function Header() {
           >
             {t("v-museum")}
           </Link>
-          <Link href="/contact" onClick={() => setIsMenuOpen(false)}>
+          <Link href="/nous-joindre" onClick={() => setIsMenuOpen(false)}>
             {t("contact-us")}
           </Link>
           <div className="text-lg">

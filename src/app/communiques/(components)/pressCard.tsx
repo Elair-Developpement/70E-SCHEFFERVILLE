@@ -34,7 +34,7 @@ export default function PressCard(pressProp: IPress) {
         </div>
         <div>
           <Link
-            href={`/press/${pressProp.link}`}
+            href={`/communiques/${pressProp.link}`}
             className="text-orange-1 underline"
           >
             {t("read-more")}

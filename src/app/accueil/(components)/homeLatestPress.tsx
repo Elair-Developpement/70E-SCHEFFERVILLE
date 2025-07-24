@@ -7,7 +7,7 @@ import { useState, useEffect, useTransition } from "react";
 
 import { createClient } from "@/lib/supabase/client";
 import IPress from "@/lib/types/iPress";
-import PressCard from "@/app/press/(components)/pressCard";
+import PressCard from "@/app/communiques/(components)/pressCard";
 
 export default function HomeLatestPress() {
   const t = useTranslations("home");
@@ -51,7 +51,7 @@ export default function HomeLatestPress() {
       ) : (
         <p className="text-gray-500 mt-1">{com("loading-error")}</p>
       )}
-      <Link href="/press" className="text-orange-1 underline self-end pt-2">
+      <Link href="/communiques" className="text-orange-1 underline self-end pt-2">
         {t("press-more")}
       </Link>
     </div>
