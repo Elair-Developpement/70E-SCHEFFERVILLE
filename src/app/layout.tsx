@@ -21,8 +21,13 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "70e anniversaire de la Ville de Schefferville",
-  description: "",
+  applicationName: "70e-schefferville",
+  title: {
+    template: '%s | Célébrons le 70e anniversaire de la Ville de Schefferville ensemble',
+    default: "Accueil"
+  },
+  description: "Célébrons le 70e anniversaire de la Ville de Schefferville ensemble",
+  keywords: "Schefferville, Ville de Schefferville, Anniversaire, 70, 70ième, Matimekush"
 };
 
 export default async function RootLayout({
