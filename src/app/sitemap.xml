@@ -1,0 +1,20 @@
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://https://www.schefferville70.ca/accueil</loc>
+    <priority>1</priority>
+  </url>
+  <url>
+    <loc>https://www.schefferville70.ca/communiques</loc>
+    <priority>0.9</priority>
+  </url>
+    <url>
+    <loc>https://www.schefferville70.ca/nous-joindre</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.schefferville70.ca/evenements</loc>
+    <priority>0.7</priority>
+  <url>
+    <loc>https://www.schefferville70.ca/communiques/[slug]</loc>
+    <priority>0.6</priority>
+</urlset>
