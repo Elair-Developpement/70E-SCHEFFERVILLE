@@ -73,10 +73,15 @@ export default function PressPage({
             />
           </div>
           <div className="flex flex-col px-2 gap-2">
-            <div className="flex w-full gap-1 md:flex-col">
+            <div className="flex w-full gap-1 flex-col">
               <h1 className="text-center text-xl md:text-2xl font-bold text-green-1">
                 {press.title}
               </h1>
+              {press.subtitle && (
+                <h2 className="text-center text-lg md:text-xl font-semibold text-gray-700">
+                  {press.subtitle}
+                </h2>
+              )}
             </div>
             <div className="flex flex-col md:justify-center">
               <div className="space-y-4 text-left">

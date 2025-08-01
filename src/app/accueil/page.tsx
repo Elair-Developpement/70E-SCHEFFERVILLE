@@ -45,11 +45,11 @@ export default function Home() {
           })}
         </div>
         <Link
-          href="https://tplhwzejgzgrpqclrkse.supabase.co/storage/v1/object/public/documents/events/Invitation-1eraout-%20museevirtuel.png"
+          href="https://museevirtuel.schefferville.ca/"
           target="_blank"
           className="text-orange-1 font-bold w-fit self-center border-2 border-orange-1 rounded-lg py-1 px-2 text-center"
         >
-          {t("museum-invite")}
+          {t("museum-visit")}
         </Link>
       </div>
       {/* Section pour les partenaires */}

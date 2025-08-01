@@ -1,6 +1,8 @@
 export default interface IPress {
   title: string;
   title_eng: string;
+  subtitle: string;
+  subtitle_eng: string;
   body: string;
   body_eng: string;
   footer: string;
