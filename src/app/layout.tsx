@@ -6,6 +6,7 @@ import { Poppins, DM_Sans } from "next/font/google";
 import "./globals.css";
 
 import Header from "@/components/running/header";
+import Footer from "@/components/running/footer";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -20,8 +21,13 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "70e anniversaire de la Ville de Schefferville",
-  description: "",
+  applicationName: "70e-schefferville",
+  title: {
+    template: '%s | Célébrons le 70e anniversaire de la Ville de Schefferville ensemble',
+    default: "Accueil"
+  },
+  description: "Célébrons le 70e anniversaire de la Ville de Schefferville ensemble",
+  keywords: "Schefferville, Ville de Schefferville, Anniversaire, 70, 70ième, Matimekush"
 };
 
 export default async function RootLayout({
@@ -37,6 +43,7 @@ export default async function RootLayout({
         <NextIntlClientProvider>
           <Header />
           {children}
+          <Footer />
         </NextIntlClientProvider>
       </body>
     </html>

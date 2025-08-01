@@ -1,4 +1,23 @@
 {
+  "calendar": {
+    "01": "January",
+    "02": "February",
+    "03": "March",
+    "04": "April",
+    "05": "May",
+    "06": "June",
+    "07": "July",
+    "08": "August",
+    "09": "September",
+    "10": "October",
+    "11": "November",
+    "12": "December"
+  },
+  "common": {
+    "loading": "Loading...",
+    "loading-error": "Error during loading...",
+    "know-more": "More info"
+  },
   "running": {
     "home": "Home",
     "press": "Press Releases",
@@ -6,11 +25,18 @@
     "v-museum": "Virtual Museum",
     "contact-us": "Contact Us",
     "locale-switcher-code": "fr",
-    "locale-switcher": "Français"
+    "locale-switcher": "Français",
+    "back-home": "Back to Home",
+    "links": "Our Links",
+    "link-website": "Ville de Schefferville",
+    "link-corporation": "Corporation de développement",
+    "link-facebook": "Facebook Page",
+    "copyright": "© 2025 All rights reserved. Ville de Schefferville",
+    "conception": "Conception :"
   },
   "home": {
-    "intro-title": "Welcome to the website for the 70th anniversary of the City of Schefferville",
-    "intro-text": "INTRO TEXT Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ligula diam, viverra quis varius non, pharetra et diam. Praesent ut est elit. Nulla fringilla semper tincidunt. Duis accumsan interdum placerat. Vestibulum facilisis vel tellus at pulvinar. Donec vel eros sed lacus dignissim feugiat. Pellentesque elit lectus, porta eu placerat ut, ultricies consequat tortor. In sed metus est. Nunc et tellus sapien. Praesent diam metus, scelerisque et eleifend sed, lobortis at ex. Integer ut rhoncus nisl. Nulla facilisi. Sed dictum diam a ipsum semper, id porta risus auctor. Vivamus ultricies orci sit amet diam malesuada, eu dapibus mauris tristique. Quisque porta rhoncus dictum. Praesent elementum velit a pulvinar iaculis.",
+    "intro-title": "Schefferville celebrates its 70th anniversary!",
+    "intro-text": "<p>In 2025, the City of Schefferville will celebrate an important milestone in its history: the 70th anniversary of its incorporation. Located north of the 54th parallel, the City celebrates seven decades of challenges, solidarity, and resilience through a series of festive, community, and memorial events bringing together the entire local and regional population.</p><p>Founded on <strong>August 1, 1955</strong>, Schefferville has become, over the decades, a symbol of diversity and determination. On this occasion, the City wishes to honor its industrial history, its deep roots with Indigenous Peoples, and the commitment of its citizens from yesterday to today.</p><p><em>“Schefferville is a unique city, born from a northern dream, forged in the collective effort of people from here and elsewhere, carried by the peoples who built and inhabited it. These 70 years offer us an opportunity to come together, to pass on our memory, and to celebrate the future with optimism” (Translated from french)</em>, states <strong>Ghislain Lévesque</strong>, a key figure in Schefferville's history, former resident, City administrator (2014 to 2020), and spokesperson for the festivities.</p>",
     "press-title": "Headlines",
     "press-latest": "Latest Press Release",
     "press-more": "See all press releases",
@@ -18,13 +44,29 @@
     "events-upcoming": "Upcoming Event",
     "events-more": "See all events",
     "museum-title": "Virtual Museum",
-    "museum-description": "INTRO TEXT FOR VIRTUAL MUSEUM AND OPENING DATE OF THE MUSEUM, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ligula diam, viverra quis varius non, pharetra et diam.",
+    "museum-description": "<p>The Schefferville online museum invites you to delve into the fascinating history of this northern territory located at the heart of the Labrador Trough. From the nomadic lives of the Innu and Naskapi peoples to the great mining epics of the 20th century, including the founding of the town and its contemporary revival, this online exhibition pays tribute to the builders, Indigenous communities, workers, and families who shaped this unique place.</p><p>Explore a rich collection of stories, images, maps, testimonies, and archives, accessible to everyone, everywhere in the world. This museum is an invitation to deepen understanding, to remember, and to celebrate Schefferville’s identity.</p>",
     "museum-visit": "Visit the virtual museum",
+    "museum-invite": "See the launch invite (French)",
     "partners": "Thank you to our partners",
     "links": "Links for more information"
+  },
+  "press": {
+    "title": "Press Releases",
+    "read-more": "Read more",
+    "pdf": "See in PDF"
   },
   "events": {
     "title": "Event Calendar",
     "pdf": "View PDF Schedule"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "people": "Key contacts :",
+    "email": "Email :",
+    "phone": "Phone Number :",
+    "julie-title": "Community relations manager",
+    "ghislain-title": "Spokesperson",
+    "portrait": "See portrait",
+    "visit-website": "Visit Schefferville's main website"
   }
 }

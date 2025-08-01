@@ -6,10 +6,17 @@ const nextConfig: NextConfig = {
     return [
       {
         source: "/",
-        destination: "/home",
+        destination: "/accueil",
         permanent: true,
       },
     ];
+  },
+  images: {
+    remotePatterns: [
+      new URL(
+        "https://tplhwzejgzgrpqclrkse.supabase.co/storage/v1/object/public/documents/press/images/**"
+      ),
+    ],
   },
 };
 
