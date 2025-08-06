@@ -44,13 +44,13 @@ export default function Home() {
             p: (chunks) => <p className="mb-2">{chunks}</p>,
           })}
         </div>
-        <Link
+        <a
           href="https://museevirtuel.schefferville.ca/"
           target="_blank"
           className="text-orange-1 font-bold w-fit self-center border-2 border-orange-1 rounded-lg py-1 px-2 text-center"
         >
           {t("museum-visit")}
-        </Link>
+        </a>
       </div>
       {/* Section pour les partenaires */}
       <div className="flex flex-col py-2">

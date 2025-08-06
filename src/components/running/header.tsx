@@ -66,13 +66,13 @@ export default function Header() {
           <Link href="/evenements" onClick={() => setIsMenuOpen(false)}>
             {t("events")}
           </Link>
-          <Link
+          <a
             href="https://museevirtuel.schefferville.ca/"
             target="_blank"
             onClick={() => setIsMenuOpen(false)}
           >
             {t("v-museum")}
-          </Link>
+          </a>
           <Link href="/nous-joindre" onClick={() => setIsMenuOpen(false)}>
             {t("contact-us")}
           </Link>
