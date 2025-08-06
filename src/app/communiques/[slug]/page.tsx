@@ -73,6 +73,15 @@ export default function PressPage({
             />
           </div>
           <div className="flex flex-col px-2 gap-2">
+            {press.pdf_link && (
+              <a
+                href={press.pdf_link}
+                target="_blank"
+                className="text-orange-1 underline mt-2"
+              >
+                {t("pdf")}
+              </a>
+            )}
             <div className="flex w-full gap-1 flex-col">
               <h1 className="text-center text-xl md:text-2xl font-bold text-green-1">
                 {press.title}
