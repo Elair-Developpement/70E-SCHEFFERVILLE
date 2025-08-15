@@ -7,6 +7,7 @@ import Home70eLogo from "./(components)/home70eLogo";
 import HomeTripleSlogan from "./(components)/homeTripleSlogan";
 import HomeLatestPress from "./(components)/homeLatestPress";
 import HomeUpcomingEvent from "./(components)/homeUpcomingEvent";
+import OnParleDeNous from "./(components)/onParleDeNous";
 
 export default function Home() {
   const t = useTranslations("home");
@@ -28,7 +29,11 @@ export default function Home() {
           })}
         </div>
       </div>
+      {/* Section pour la bannière on parle de nous */}
+      <OnParleDeNous />
+      {/* Section pour les communiqués */}
       <HomeLatestPress />
+      {/* Section pour la programmation */}
       <HomeUpcomingEvent />
       {/* Section dédié au musée virtuel */}
       <div className="flex flex-col border-4 border-teal-1 p-3 rounded-lg my-2">
