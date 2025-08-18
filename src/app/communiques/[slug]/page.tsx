@@ -55,13 +55,15 @@ export default function PressPage({
       {isPending && <div>Chargement...</div>}
       {press && (
         <div className="">
-          <Image
-            src={press.image_link}
-            alt={press.title}
-            width={600}
-            height={600}
-            className="object-cover w-full md:max-h-[35rem]"
-          />
+          {press.image_link && (
+            <Image
+              src={press.image_link}
+              alt={press.title}
+              width={600}
+              height={600}
+              className="object-cover w-full md:max-h-[35rem]"
+            />
+          )}
           <div className="flex justify-between">
             <BackToHomeButton />
             <Image
