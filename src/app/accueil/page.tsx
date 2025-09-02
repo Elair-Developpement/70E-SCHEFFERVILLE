@@ -27,6 +27,11 @@ export default function Home() {
             em: (chunks) => <em>{chunks}</em>,
             strong: (chunks) => <strong>{chunks}</strong>,
           })}
+          {t.rich("intro-chef", {
+            p: (chunks) => <p className="mb-2">{chunks}</p>,
+            em: (chunks) => <em>{chunks}</em>,
+            strong: (chunks) => <strong>{chunks}</strong>,
+          })}
         </div>
       </div>
       {/* Section pour la bannière on parle de nous */}
