@@ -31,7 +31,7 @@ export default function Contact() {
             title={t("ghislain-title")}
             email="glevesque@cgl25.ca"
             phone="418 964-6275"
-            portrait_link="https://tplhwzejgzgrpqclrkse.supabase.co/storage/v1/object/public/documents/portrait/Portrait%20Ghislain%20Levesque.pdf"
+            portrait_link="https://uouggeatockafepbvzzy.supabase.co/storage/v1/object/public/70e/portrait/Portrait%20Ghislain%20Levesque.pdf"
           />
         </div>
       </div>

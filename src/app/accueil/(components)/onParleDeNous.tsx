@@ -9,7 +9,7 @@ export default function OnParleDeNous() {
         {t("talk-us-title")}
       </h1>
       <a
-        href="https://tplhwzejgzgrpqclrkse.supabase.co/storage/v1/object/public/documents/press/review/Revue%20de%20presse-%2070%20ans%20Schefferville%20.pdf"
+        href="https://uouggeatockafepbvzzy.supabase.co/storage/v1/object/public/70e/press/review/Revue%20de%20presse-%2070%20ans%20Schefferville%20.pdf"
         target="_blank"
         className="text-center w-full text-white underline"
       >
