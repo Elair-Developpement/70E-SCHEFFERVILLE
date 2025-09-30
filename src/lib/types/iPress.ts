@@ -11,4 +11,5 @@ export default interface IPress {
   pdf_link: string;
   link: string;
   publish_date: string;
+  images_links: string;
 }

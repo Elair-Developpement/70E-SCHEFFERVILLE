@@ -98,6 +98,18 @@ export default function PressPage({
               <div className="space-y-4 text-left">
                 <ReactMarkdown>{press.body}</ReactMarkdown>
               </div>
+              {press.images_links &&
+                press.images_links.split(",").map((link, index) => (
+                  <div key={index} className="my-4">
+                    <Image
+                      src={link.trim()}
+                      alt={`Image ${index + 1}`}
+                      width={600}
+                      height={400}
+                      className="object-contain w-full"
+                    />
+                  </div>
+                ))}
               {press.footer && (
                 <div className="space-y-4 text-left mt-6 text-gray-500">
                   <ReactMarkdown>{press.footer}</ReactMarkdown>
