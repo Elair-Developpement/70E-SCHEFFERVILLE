@@ -73,6 +73,9 @@ export default function Header() {
           >
             {t("v-museum")}
           </a>
+          <Link href="/partenaires" onClick={() => setIsMenuOpen(false)}>
+            {t("partners")}
+          </Link>
           <Link href="/nous-joindre" onClick={() => setIsMenuOpen(false)}>
             {t("contact-us")}
           </Link>

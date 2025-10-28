@@ -6,7 +6,6 @@ import { useTranslations } from "next-intl";
 import Home70eLogo from "./(components)/home70eLogo";
 import HomeTripleSlogan from "./(components)/homeTripleSlogan";
 import HomeLatestPress from "./(components)/homeLatestPress";
-import HomeUpcomingEvent from "./(components)/homeUpcomingEvent";
 import OnParleDeNous from "./(components)/onParleDeNous";
 
 export default function Home() {
@@ -39,7 +38,7 @@ export default function Home() {
       {/* Section pour les communiqués */}
       <HomeLatestPress />
       {/* Section pour la programmation */}
-      <HomeUpcomingEvent />
+      {/*<HomeUpcomingEvent />*/}
       {/* Section dédié au musée virtuel */}
       <div className="flex flex-col border-4 border-teal-1 p-3 rounded-lg my-2">
         <h1 className="text-teal-1 text-2xl text-center font-bold">
@@ -63,14 +62,13 @@ export default function Home() {
         </a>
       </div>
       {/* Section pour les partenaires */}
-      <div className="flex flex-col py-2">
+      <Link href="/partenaires" className="flex flex-col py-2">
         <h1 className="text-xl text-blue-1 font-bold">{t("partners")}</h1>
+        <h2 className="text-xl text-orange-1 font bold hover:underline transition-all">
+          {t("partners-link")}
+        </h2>
         <div className="flex">
-          <Link
-            href="https://www.caniapiscau.ca"
-            target="_blank"
-            className="text-center font-semibold"
-          >
+          <div className="text-center font-semibold">
             <Image
               src="/images/partners/Logo_MRC_de_Caniapiscau.png"
               alt="Logo de la MRC de Caniapiscau"
@@ -79,12 +77,8 @@ export default function Home() {
               className="object-contain w-full md:max-w-[19rem]"
             />
             La MRC de Caniapiscau
-          </Link>
-          <Link
-            href="https://www.quebec.ca/gouvernement/ministeres-organismes/societe-plan-nord"
-            target="_blank"
-            className="text-center font-semibold"
-          >
+          </div>
+          <div className="text-center font-semibold">
             <Image
               src="/images/partners/Gouv_Quebec_logo.png"
               alt="Logo du Gouvernement du Québec"
@@ -93,9 +87,9 @@ export default function Home() {
               className="object-contain w-full md:max-w-[24rem]"
             />
             La société du Plan Nord
-          </Link>
+          </div>
         </div>
-      </div>
+      </Link>
     </main>
   );
 }

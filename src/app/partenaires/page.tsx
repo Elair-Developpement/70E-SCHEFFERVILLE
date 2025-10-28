@@ -5,13 +5,13 @@ import { useTranslations } from "next-intl";
 import BackToHomeButton from "@/components/navigation/backToHomeButton";
 
 export default function Home() {
-  const t = useTranslations("partners");
+  const t = useTranslations("home");
 
   return (
     <main className="block pt-[5rem] px-2 md:max-w-[80rem] md:mx-auto min-h-[calc(100vh-25rem)]">
       <BackToHomeButton />
       <h1 className="text-3xl md:text-3xl text-center font-bold text-blue-1">
-        {t("title")}
+        {t("partners")}
       </h1>
       <div className="flex flex-col py-2 md:gap-10">
         <div className="grid grid-rows-2 md:flex md:flex-row md:items-center">

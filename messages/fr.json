@@ -23,6 +23,7 @@
     "press": "Communiqués",
     "events": "Programmation",
     "v-museum": "Musée virtuel",
+    "partners": "Partenaires",
     "contact-us": "Nous joindre",
     "locale-switcher-code": "en",
     "locale-switcher": "English",
@@ -49,6 +50,7 @@
     "museum-visit": "Visiter le musée virtuel",
     "museum-invite": "Voir l'invitation",
     "partners": "Merci à nos partenaires",
+    "partners-link": "Voir tous les partenaires",
     "links": "Liens pour plus d'informations",
     "talk-us-title": "On parle de nous !",
     "talk-us-link": "Consulter notre revue de presse"
@@ -71,8 +73,5 @@
     "ghislain-title": "Porte-parole",
     "portrait": "Consulter portrait",
     "visit-website": "Visiter le site web de la ville de Schefferville"
-  },
-  "partners": {
-    "title": "Merci à nos partenaires"
   }
 }
