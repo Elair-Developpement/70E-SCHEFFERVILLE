@@ -13,8 +13,8 @@ export default function Home() {
       <h1 className="text-3xl md:text-3xl text-center font-bold text-blue-1">
         {t("partners")}
       </h1>
-      <div className="flex flex-col py-2 md:gap-10">
-        <div className="grid grid-rows-2 md:flex md:flex-row md:items-center">
+      <div className="flex flex-col py-2 gap-5 md:gap-10">
+        <div className="grid grid-cols-2 place-items-center gap-5 md:flex md:flex-row md:items-center">
           <a
             href="https://www.caniapiscau.ca"
             target="_blank"
@@ -72,7 +72,7 @@ export default function Home() {
             Métaux Torngat
           </a>
         </div>
-        <div className="grid grid-rows-2 md:flex md:flex-row md:items-center">
+        <div className="grid grid-cols-2 place-items-center gap-5 md:flex md:flex-row md:items-center">
           <a
             href="https://www.assnat.qc.ca/fr/deputes/champagne-jourdain-kateri-19303/index.html"
             target="_blank"
@@ -130,7 +130,7 @@ export default function Home() {
             Manikin Center
           </a>
         </div>
-        <div className="grid grid-rows-2 md:flex md:flex-row md:items-center">
+        <div className="grid grid-cols-2 place-items-center gap-5 md:flex md:flex-row md:items-center">
           <a href="" target="_blank" className="text-center font-semibold">
             <Image
               src="/images/partners/nord_roy.png"
@@ -180,7 +180,7 @@ export default function Home() {
             Kawawachikamach Energy Services Inc.
           </a>
         </div>
-        <div className="grid grid-rows-2 md:flex md:flex-row md:items-center">
+        <div className="grid grid-cols-2 place-items-center gap-5 md:flex md:flex-row md:items-center">
           <a
             href="https://www.ecolekanatamat.ca/"
             target="_blank"
