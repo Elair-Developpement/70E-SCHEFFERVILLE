@@ -209,6 +209,20 @@ export default function Home() {
             />
             Naskapi Services de Transport
           </a>
+          <a
+            href="https://www.facebook.com/p/Alimentation-Boeuf-Rouge-Inc-100079854730848/"
+            target="_blank"
+            className="text-center font-semibold"
+          >
+            <Image
+              src="/images/partners/boeuf_rouge.jpg"
+              alt="Logo de Alimentation Boeuf Rouge"
+              width={1200}
+              height={675}
+              className="object-contain w-full md:max-w-[24rem]"
+            />
+            Alimentation Boeuf Rouge
+          </a>
         </div>
       </div>
     </main>
