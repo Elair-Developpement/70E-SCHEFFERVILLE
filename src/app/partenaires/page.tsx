@@ -21,7 +21,7 @@ export default function Home() {
             className="text-center font-semibold h-fit"
           >
             <Image
-              src="/images/partners/Logo_MRC_de_Caniapiscau.png"
+              src="/images/partners/mrc.png"
               alt="Logo de la MRC de Caniapiscau"
               width={860}
               height={612}
